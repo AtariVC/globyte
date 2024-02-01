@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import random
 
 
 st.write("""
@@ -11,8 +10,8 @@ Hello *world!*
 # Генерация случайных данных
 num_records = 100
 data = {
-    'RandomNumber1': [random.randint(0, 100) for _ in range(num_records)],
-    'RandomNumber2': [random.randint(0, 100) for _ in range(num_records)]
+    'RandomNumber1': [1, 2, 3],
+    'RandomNumber2': [1, 2, 3]
 }
 
 # Создание DataFrame
