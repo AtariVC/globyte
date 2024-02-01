@@ -18,8 +18,5 @@ data = {
 # Создание DataFrame
 df = pd.DataFrame(data)
 
-# Запись в CSV файл
-df.to_csv('random_numbers.csv', index=False)
-
 df = pd.read_csv('random_numbers.csv')
 st.line_chart(df)
