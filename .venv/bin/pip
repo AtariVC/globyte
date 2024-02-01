@@ -1,4 +1,4 @@
-#!/Users/vladk/python_project/streamlit_ex/.venv/bin/python3.11
+#!/Users/vladk/python_project/globyte-1/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
